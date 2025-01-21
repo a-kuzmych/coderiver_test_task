@@ -1,0 +1,46 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  align-items: center;
+}
+
+.header__left {
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 70px;
+  left: 80px;
+}
+
+.header__logo-link {
+  display: flex;
+  align-items: center;
+  margin-right: 16px;
+}
+
+.header__logo {
+  width: 156px;
+  height: auto;
+}
+
+.header__date {
+  font-family: "KyivType Titling";
+  font-size: 24px;
+  color: #C8C8C8;
+  margin-left: 26px;
+}
+
+.header__right {
+  display: flex;
+  align-items: center;
+  position: relative;
+  right: 32px;
+  top: 42px;
+}
+
+.header__avatar {
+  width: 74px;
+  height: 74px;
+  margin-left: 45px;
+}

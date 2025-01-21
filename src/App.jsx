@@ -1,12 +1,16 @@
-import './App.css'
+import "./App.css";
+import Header from "./components/Header/Header";
+import OverviewSection from "./components/OverviewSection/OverviewSection";
 
 function App() {
-
   return (
     <>
-      <div>coderiver test task</div>
+      <div className="">
+        <Header />
+        <OverviewSection />
+      </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
