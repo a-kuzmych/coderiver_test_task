@@ -8,7 +8,7 @@ const Buttons = () => {
         STREAM NOW
         <img
           className="button__icon"
-          src="/src/assets/img/overview/play.svg"
+          src="./src/assets/img/overview/play.svg"
           alt="icon"
         />
       </button>

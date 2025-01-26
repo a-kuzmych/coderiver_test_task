@@ -7,10 +7,10 @@ const Header = () => {
     <header className="header">
       <div className="header__left">
         <a href="/" className="header__logo-link">
-          <img src="/logo.svg" alt="logo" className="header__logo" />
+          <img src="./logo.svg" alt="logo" className="header__logo" />
         </a>
         <img
-          src="/src/assets/img/header/vector.svg"
+          src="./src/assets/img/header/vector.svg"
           alt="Decoration"
           className="header__vector"
         />
@@ -19,7 +19,7 @@ const Header = () => {
       <div className="header__right">
         <Search />
         <img
-          src="/src/assets/img/header/avatar.png"
+          src="./src/assets/img/header/avatar.png"
           alt="Avatar"
           className="header__avatar"
         />

@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/coderiver_test_task/',
   plugins: [react()],
+  base: '/coderiver_test_task/'
 })

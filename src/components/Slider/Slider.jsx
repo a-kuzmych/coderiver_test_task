@@ -83,22 +83,22 @@ const SliderComponent = () => {
       </div>
       <Slider ref={sliderRef} {...settings}>
         <div className="slider__item">
-          <img src="/src/assets/img/slider/film1.jpg" alt="Film 1" />
+          <img src="./src/assets/img/slider/film1.jpg" alt="Film 1" />
         </div>
         <div className="slider__item">
-          <img src="/src/assets/img/slider/film2.jpg" alt="Film 2" />
+          <img src="./src/assets/img/slider/film2.jpg" alt="Film 2" />
         </div>
         <div className="slider__item">
-          <img src="/src/assets/img/slider/film3.jpg" alt="Film 3" />
+          <img src="./src/assets/img/slider/film3.jpg" alt="Film 3" />
         </div>
         <div className="slider__item">
-          <img src="/src/assets/img/slider/film4.jpg" alt="Film 4" />
+          <img src="./src/assets/img/slider/film4.jpg" alt="Film 4" />
         </div>
         <div className="slider__item">
-          <img src="/src/assets/img/slider/film5.jpg" alt="Film 5" />
+          <img src="./src/assets/img/slider/film5.jpg" alt="Film 5" />
         </div>
         <div className="slider__item">
-          <img src="/src/assets/img/slider/film6.jpg" alt="Film 6" />
+          <img src="./src/assets/img/slider/film6.jpg" alt="Film 6" />
         </div>
       </Slider>
     </section>
