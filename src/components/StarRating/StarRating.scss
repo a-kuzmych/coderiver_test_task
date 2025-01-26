@@ -1,0 +1,18 @@
+.stars {
+  display: flex;
+  list-style: none;
+  padding: 0;
+
+  &__star {
+    width: 30px;
+    height: 30px;
+    background-image: url('/src/assets/img/overview/empty_star.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 14px;
+
+    &--active {
+      background-image: url('/src/assets/img/overview/filled_star.svg');
+    }
+  }
+}

@@ -21,10 +21,3 @@
   src: url("./assets/fonts/Inter-VariableFont_opsz,wght.ttf") format("truetype");
   font-weight: 400;
 }
-
-
-body {
-  background-image: url("public/Screenshot 2022-08-10 at 15.38 1.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-}

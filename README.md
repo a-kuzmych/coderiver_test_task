@@ -1,8 +1,36 @@
-# React + Vite
+# Netflix Homepage Test Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+This is a test assignment to create a Netflix homepage layout using HTML, CSS, and JavaScript. The task includes building a background with an interactive 3D scene, along with animating text on page load. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Setup Instructions
+
+### Clone the repository:
+First, clone the repository to your local machine using the following command:
+
+```bash
+git clone https://github.com/a-kuzmych/coderiver_test_task.git
+cd coderiver_test_task
+```
+
+### Install dependencies:
+Next, install all the necessary dependencies by running:
+
+```bash
+npm install
+```
+
+### Start the project:
+To view the project in your browser, start the local development server using the following command:
+
+```bash
+npm start
+```
+
+The page will be accessible at http://localhost:3000 in your web browser.
+
+## Demo Link:
+You can view the live demo of the project here:
+
+[Demo Link](https://a-kuzmych.github.io/coderiver_test_task/)

@@ -1,5 +1,6 @@
 import React from "react";
 import "./OverviewSection.scss";
+import StarRating from "../StarRating/StarRating";
 
 const OverviewSection = () => {
   return (
@@ -65,7 +66,7 @@ const OverviewSection = () => {
         and secret government exploits. As they search for answers, the children
         unravel a series of extraordinary mysteries.
       </p>
-      <img src="/src/assets/img/overview/stars.svg" alt="stars" />
+      <StarRating rating={3} maxStars={5} />
     </section>
   );
 };
