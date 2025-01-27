@@ -16,12 +16,17 @@
     }
 
     .header__logo {
+      background: url("/logo.svg") no-repeat center center;
+      background-size: contain;
       width: 156px;
-      height: auto;
+      height: 48px;
     }
 
     .header__vector {
-      margin-left: 10px;
+      background: url("/assets/img/header/vector.svg") no-repeat center center;
+      background-size: contain;
+      height: 28px;
+      width: 3px;
     }
 
     .header__date {
@@ -40,6 +45,8 @@
     top: 12px;
 
     .header__avatar {
+      background: url("/assets/img/header/avatar.png") no-repeat center center;
+      background-size: cover;
       width: 74px;
       height: 74px;
       margin-left: 45px;

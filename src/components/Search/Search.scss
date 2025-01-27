@@ -7,6 +7,10 @@
     border: none;
     cursor: pointer;
     outline: none;
+    width: 37px;
+    height: 37px;
+    background: url("/assets/img/header/search.svg") no-repeat center center;
+    background-size: contain;
   }
 
   &__input {

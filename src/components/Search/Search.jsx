@@ -14,10 +14,7 @@ const Search = () => {
 
   return (
     <div className="search">
-      <button className="search__button" onClick={handleSearchClick}>
-        <img src="./src/assets/img/header/search.svg" alt="Search" width="37" height="37"/>
-      </button>
-
+      <button className="search__button" onClick={handleSearchClick} />
       {isSearchActive && (
         <input
           type="text"

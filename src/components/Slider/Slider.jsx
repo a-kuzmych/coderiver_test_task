@@ -4,6 +4,14 @@ import "./Slider.scss";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+// Імпортуємо зображення
+import film1 from "../../../public/assets/img/slider/film1.jpg";
+import film2 from "../../../public/assets/img/slider/film2.jpg";
+import film3 from "../../../public/assets/img/slider/film3.jpg";
+import film4 from "../../../public/assets/img/slider/film4.jpg";
+import film5 from "../../../public/assets/img/slider/film5.jpg";
+import film6 from "../../../public/assets/img/slider/film6.jpg";
+
 const SliderComponent = () => {
   const sliderRef = useRef(null);
   const [isPrevDisabled, setIsPrevDisabled] = useState(true);
@@ -83,22 +91,22 @@ const SliderComponent = () => {
       </div>
       <Slider ref={sliderRef} {...settings}>
         <div className="slider__item">
-          <img src="./src/assets/img/slider/film1.jpg" alt="Film 1" />
+          <img src={film1} alt="Film 1" />
         </div>
         <div className="slider__item">
-          <img src="./src/assets/img/slider/film2.jpg" alt="Film 2" />
+          <img src={film2} alt="Film 2" />
         </div>
         <div className="slider__item">
-          <img src="./src/assets/img/slider/film3.jpg" alt="Film 3" />
+          <img src={film3} alt="Film 3" />
         </div>
         <div className="slider__item">
-          <img src="./src/assets/img/slider/film4.jpg" alt="Film 4" />
+          <img src={film4} alt="Film 4" />
         </div>
         <div className="slider__item">
-          <img src="./src/assets/img/slider/film5.jpg" alt="Film 5" />
+          <img src={film5} alt="Film 5" />
         </div>
         <div className="slider__item">
-          <img src="./src/assets/img/slider/film6.jpg" alt="Film 6" />
+          <img src={film6} alt="Film 6" />
         </div>
       </Slider>
     </section>

@@ -7,22 +7,14 @@ const Header = () => {
     <header className="header">
       <div className="header__left">
         <a href="/" className="header__logo-link">
-          <img src="./logo.svg" alt="logo" className="header__logo" />
+          <div className="header__logo"></div>
         </a>
-        <img
-          src="./src/assets/img/header/vector.svg"
-          alt="Decoration"
-          className="header__vector"
-        />
+        <div className="header__vector"></div>
         <div className="header__date">Friday July 8th</div>
       </div>
       <div className="header__right">
         <Search />
-        <img
-          src="./src/assets/img/header/avatar.png"
-          alt="Avatar"
-          className="header__avatar"
-        />
+        <div className="header__avatar"></div>
       </div>
     </header>
   );

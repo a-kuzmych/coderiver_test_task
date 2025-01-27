@@ -6,13 +6,13 @@
   &__star {
     width: 30px;
     height: 30px;
-    background-image: url('/src/assets/img/overview/empty_star.svg');
+    background-image: url('/assets/img/overview/empty_star.svg');
     background-size: contain;
     background-repeat: no-repeat;
     margin-right: 14px;
 
     &--active {
-      background-image: url('/src/assets/img/overview/filled_star.svg');
+      background-image: url('/assets/img/overview/filled_star.svg');
     }
   }
 }
