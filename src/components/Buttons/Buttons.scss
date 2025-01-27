@@ -31,6 +31,9 @@
     .button__icon {
       width: 28px;
       height: 28px;
+      background: url("/assets/img/overview/play.svg")
+        no-repeat center center;
+      background-size: cover;
     }
   }
 

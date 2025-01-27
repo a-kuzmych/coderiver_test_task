@@ -6,11 +6,7 @@ const Buttons = () => {
     <section className="button">
       <button className="button__first">
         STREAM NOW
-        <img
-          className="button__icon"
-          src="/assets/img/overview/play.svg"
-          alt="icon"
-        />
+        <span className="button__icon"></span>
       </button>
       <button className="button__second">ALL EPISODES</button>
     </section>
